@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: rgb(151, 187, 218);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .submit{
+            background-color:rgb(70, 154, 223);
+            width: 180px;
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        form{
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+            text-align: center;
+        }
+        input{
+            background-color:rgb(219, 219, 219);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        p{
+            color: blue;
+            text-decoration: underline;
+            font-size: 10px;
+            text-align: left;
+            padding-left: 60px;
+            cursor:pointer;
+        }
+        h1{
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+    <body>
+        <form>
+            <h1><b>Login</b></h1>
+            <input type="text" placeholder="Username" required><br><br>
+            <input type="password" placeholder="Password" required>
+            <p>Forgot Password?</p><br>
+            <input type="submit" class="submit" value="Submit">
+        </form>
+    </body>
+</html>
